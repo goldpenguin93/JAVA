@@ -1,6 +1,4 @@
-
-![social](https://user-images.githubusercontent.com/31435126/49341245-07b6a780-f68e-11e8-9bc5-9ebc54f38740.png)
-
+![dbgxt2rvpd26udoyzcqn 0 0](https://user-images.githubusercontent.com/31435126/49341247-0e451f00-f68e-11e8-88e1-9a99641bfd74.jpg)
 
 
 
