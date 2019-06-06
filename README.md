@@ -44,16 +44,16 @@ Java contains multiple types of garbage collectors. By default, HotSpot uses the
 Main article: Java syntax
 
 Dependency graph of the Java Core classes (created with jdeps and Gephi). The most frequently used classes Object and String appear in the centre of the diagram.
-The syntax of Java is largely influenced by C++. Unlike C++, which combines the syntax for structured, generic, and object-oriented programming, Java was built almost exclusively as an object-oriented language.[17] All code is written inside classes, and every data item is an object, with the exception of the primitive data types, (i.e. integers, floating-point numbers, boolean values, and characters), which are not objects for performance reasons. Java reuses some popular aspects of C++ (such as the printf method).
+The syntax of Java is largely influenced by C++. Unlike C++, which combines the syntax for structured, generic, and object-oriented programming, Java was built almost exclusively as an object-oriented language. All code is written inside classes, and every data item is an object, with the exception of the primitive data types, (i.e. integers, floating-point numbers, boolean values, and characters), which are not objects for performance reasons. Java reuses some popular aspects of C++ (such as the printf method).
 
-Unlike C++, Java does not support operator overloading[58] or multiple inheritance for classes, though multiple inheritance is supported for interfaces.[59]
+Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
 
 Java uses comments similar to those of C++. There are three different styles of comments: a single line style marked with two slashes (//), a multiple line style opened with /* and closed with */, and the Javadoc commenting style opened with /** and closed with */. The Javadoc style of commenting allows the user to run the Javadoc executable to create documentation for the program and can be read by some integrated development environments (IDEs) such as Eclipse to allow developers to access documentation within the IDE.
 
 
 
 "Hello world" example
-The traditional "Hello, world!" program can be written in Java as:[60]
+The traditional "Hello, world!" program can be written in Java as:
 
 class HelloWorldApp {
     public static void main(String[] args) {
@@ -83,39 +83,39 @@ Printing is part of a Java standard library: The System class defines a public s
 The string "Hello World!" is automatically converted to a String object by the compiler.
 
 <h2>Example with methods</h2>
-// This is an example of a single line comment using two slashes
+This is an example of a single line comment using two slashes
 
-/* This is an example of a multiple line comment using the slash and asterisk.
+ This is an example of a multiple line comment using the slash and asterisk.
  This type of comment can be used to hold a lot of information or deactivate
- code, but it is very important to remember to close the comment. */
+ code, but it is very important to remember to close the comment. 
 
 package fibsandlies;
 import java.util.HashMap;
 
-/**
+
  * This is an example of a Javadoc comment; Javadoc can compile documentation
  * from this text. Javadoc comments must immediately precede the class, method, or field being documented.
- */
+
 public class FibCalculator extends Fibonacci implements Calculator {
 
     private static Map<Integer, Integer> memoized = new HashMap<Integer, Integer>();
 
-    /*
+   
      * The main method written as follows is used by the JVM as a starting point for the program.
-     */
+     
     public static void main(String[] args) {
         memoized.put(1, 1);
         memoized.put(2, 1);
         System.out.println(fibonacci(12)); //Get the 12th Fibonacci number and print to console
     }
 
-    /**
+    
      * An example of a method written in Java, wrapped in a class.
      * Given a non-negative number FIBINDEX, returns
      * the Nth Fibonacci number, where N equals FIBINDEX.
      * @param fibIndex The index of the Fibonacci number
      * @return The Fibonacci number
-     */
+     
     public static int fibonacci(int fibIndex) {
         if (memoized.containsKey(fibIndex)) {
             return memoized.get(fibIndex);
