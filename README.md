@@ -38,7 +38,7 @@ Java does not support C/C++ style pointer arithmetic, where object addresses and
 
 As in C++ and some other object-oriented languages, variables of Java's primitive data types are either stored directly in fields (for objects) or on the stack (for methods) rather than on the heap, as is commonly true for non-primitive data types (but see escape analysis). This was a conscious decision by Java's designers for performance reasons.
 
-Java contains multiple types of garbage collectors. By default, HotSpot uses the parallel scavenge garbage collector.[55] However, there are also several other garbage collectors that can be used to manage the heap. For 90% of applications in Java, the Concurrent Mark-Sweep (CMS) garbage collector is sufficient.[56] Oracle aims to replace CMS with the Garbage-First collector (G1).[57]
+Java contains multiple types of garbage collectors. By default, HotSpot uses the parallel scavenge garbage collector. However, there are also several other garbage collectors that can be used to manage the heap. For 90% of applications in Java, the Concurrent Mark-Sweep (CMS) garbage collector is sufficient. Oracle aims to replace CMS with the Garbage-First collector (G1).
 
 <h2>Syntax</h2>
 Main article: Java syntax
