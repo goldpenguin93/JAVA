@@ -160,7 +160,7 @@ In 2004, generics were added to the Java language, as part of J2SE 5.0. Prior to
 
 In 2016, the type system of Java was proven unsound.
 
-<h2>Reference site<h2>
+<h2>Reference site</h2>
 https://opentutorials.org/course/1
   
   
