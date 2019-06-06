@@ -51,6 +51,7 @@ Unlike C++, Java does not support operator overloading or multiple inheritance f
 Java uses comments similar to those of C++. There are three different styles of comments: a single line style marked with two slashes (//), a multiple line style opened with /* and closed with */, and the Javadoc commenting style opened with /** and closed with */. The Javadoc style of commenting allows the user to run the Javadoc executable to create documentation for the program and can be read by some integrated development environments (IDEs) such as Eclipse to allow developers to access documentation within the IDE.
 
 
+```
 
 "Hello world" example
 The traditional "Hello, world!" program can be written in Java as:
@@ -61,6 +62,7 @@ class HelloWorldApp {
     }
 }
 
+```
 
 Source files must be named after the public class they contain, appending the suffix .java, for example, HelloWorldApp.java. It must first be compiled into bytecode, using a Java compiler, producing a file named HelloWorldApp.class. Only then can it be executed, or "launched". The Java source file may only contain one public class, but it can contain multiple classes with other than public access modifier and any number of public inner classes. When the source file contains multiple classes, make one class "public" and name the source file with that public class name.
 
@@ -95,6 +97,8 @@ import java.util.HashMap;
 
  * This is an example of a Javadoc comment; Javadoc can compile documentation
  * from this text. Javadoc comments must immediately precede the class, method, or field being documented.
+ 
+```
 
 public class FibCalculator extends Fibonacci implements Calculator {
 
@@ -126,6 +130,9 @@ public class FibCalculator extends Fibonacci implements Calculator {
         }
     }
 }
+
+```
+
 <h2>Special classes</h2>
 Applet
 Main article: Java applet
